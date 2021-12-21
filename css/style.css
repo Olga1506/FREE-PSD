@@ -330,8 +330,41 @@ body{
     color: #373636;
 }
 
+/*===================================================*/
 
 
+/*Company*/
+/*===========================================*/
+
+.company{
+    background-image: url("../images/company-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+
+.company__item{
+    padding: 35px 0 45px 0;
+    max-width: 540px;
+}
+
+.company__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.company__text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #d3d2d2;
+    letter-spacing: 0.1px;
+    margin-bottom: 40px;
+}
 
 
 

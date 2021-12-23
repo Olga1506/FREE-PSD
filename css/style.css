@@ -457,9 +457,72 @@ body{
     color: #282828;
 }
 
+/*========================================*/
 
 
+/*Advantages*/
+/*==================================================*/
 
+
+.advantages{
+    padding: 50px 0 40px;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 287px;
+
+}
+
+.advantages__items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__item{
+    padding: 0 25px;
+    position: relative;
+    width: 33.333%;
+    text-align: center;
+}
+
+.advantages__item-title{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 24px;
+}
+
+.advantages__item-title:before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ffc222;
+    color: #fff;
+}
+
+.advantages__item-title:after{
+    position: absolute;
+    font-family: 'icomoon';
+    content: "\f00c";
+    font-size: 14px;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advantages__item-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #d3d2d2;
+}
 
 
 

@@ -6,8 +6,10 @@
 }
 
 body{
+    width: 100%;
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'PT Serif', serif;
+
 }
 
 
@@ -89,6 +91,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .menu__item{
@@ -101,7 +104,7 @@ body{
 
 .menu__item li a{
     font-size: 16px;
-    line-height: 36px;
+    line-height: 44.4%;
     color: #323232;
     border: 1px solid transparent;
     padding: 6px 16px;
@@ -112,8 +115,9 @@ body{
     border-color: #ffc222;
 }
 
-#modal{
+.header__btn-menu{
     display: none;
+    font-size: 28px;
 }
 
 /*===========================================================*/

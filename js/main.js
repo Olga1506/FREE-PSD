@@ -12,6 +12,8 @@ $('.slider__inner').slick({
         infinite: false,
     });
 
-
+    $('.header__btn-menu').on('click', function (){
+        $('.menu ul').slideToggle()
+    })
 
 });

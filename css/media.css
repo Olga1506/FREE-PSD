@@ -1,0 +1,241 @@
+
+@media (max-width: 1200px) {
+    .news__top{
+        display: block;
+    }
+    .about__top{
+        display: block;
+    }
+    .news__title-box,
+    .about__title-box{
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .news__title-box:before,
+    .about__title-box:before{
+        display: none;
+    }
+    .news__btn {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .about__btn {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .about__title,
+    .news__title{
+        text-align: center;
+    }
+    .about__text,
+    .news__text{
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 1156px) {
+    .about__items {
+        display: block;
+    }
+    .about__item{
+        max-width: 80%;
+        min-height: 330px;
+        margin: 30px auto;
+    }
+
+    .form__inner{
+        background-image: none;
+    }
+    .news__inner{
+        display: block;
+    }
+    .news__slider{
+    width: 100%;
+        margin-bottom: 100px;
+    }
+    .news__items {
+        width: 100%;
+        align-items: center;
+    }
+    .news{
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .footer__inner{
+        display: block;
+    }
+    .footer__info{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer__map iframe{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .slider .slick-btn{
+        display: none !important;
+    }
+
+
+   .form__title-box {
+       padding-left: 0;
+       text-align: center;
+       margin: 0 auto 30px;
+   }
+   /*.about__title-box:before,*/
+   /*.form__title-box:before,*/
+   /*.news__title-box:before{*/
+   /*    display: none;*/
+   /*}*/
+
+    .form {
+        padding-bottom: 25px;
+    }
+
+   .form__title-box:before{
+       display: none;
+   }
+    .form__items {
+        display: block;
+    }
+    .advantages__items{
+        display: block;
+    }
+    .advantages__item{
+       width: 100%;
+    }
+    .advantages__item-title:before{
+        top: -50px;
+    }
+    .advantages__item-title:after{
+        top: -43px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__btn{
+        margin: 0 auto;
+    }
+    .header__item{
+        flex-wrap: wrap;
+    }
+    .header__btn-menu{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .menu a{
+        display: block;
+        background-color: #ffc222;
+
+    }
+    .menu li + li{
+        padding-left: 0;
+    }
+
+    .slider__item-content{
+        padding-top: 65px;
+    }
+    .news__items{
+        flex-wrap: wrap;
+    }
+    .news__blog{
+        margin-bottom: 20px;
+    }
+    .news__blog-title,
+    .news__blog-text{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .contacts{
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+    .header__btn{
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about__item{
+        max-width: 100%;
+        min-height: 376px;
+        margin: 30px auto;
+    }
+    .form__title-box{
+    }
+}
+
+
+
+@media (max-width: 540px) {
+    .slider__title{
+        font-size: 28px;
+    }
+    .slider__item-content{
+        padding-top: 40px;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .header__phone{
+        display: block;
+    }
+    .slider__title{
+        font-size: 24px;
+    }
+    .slider__text {
+        font-size: 16px;
+    }
+    .slider__item-content{
+        padding-top: 18px;
+    }
+}
+
+@media (max-width: 370px) {
+    .slider__title{
+        font-size: 20px;
+    }
+    .slider__text {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .form__box {
+        padding-top: 0;
+    }
+}
+
+
+
+
+@media (min-width: 700px)  {
+    .menu__item li a{
+        display: block !important;
+
+    }
+}
